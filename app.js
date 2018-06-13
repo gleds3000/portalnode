@@ -11,7 +11,7 @@ const hostname = 'localhost';
 //rotaFormInclusaoNoticia(app);
 
 app.listen(port, function(){
-        console.log("Servidor On");
+        console.log("Servidor On localhost:3000");
         console.log(new Date().toISOString());
         //console.log("servidor rodando com express");
         //console.log(msg());
