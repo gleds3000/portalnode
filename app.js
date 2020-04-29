@@ -13,6 +13,9 @@ const hostname = 'localhost';
 var Porta = process.env.PORT || 3000
 app.listen(Porta)
 console.log(':)servidor iniciado na porta ', Porta);
+
+console.log(new Date().toISOString());
+
 /*
 app.listen(port, function(){
         console.log("Servidor On localhost:3000");
