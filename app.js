@@ -10,12 +10,17 @@ const hostname = 'localhost';
 //var rotaFormInclusaoNoticia = require('./app/routes/formulario_inclusao_noticia')(app); 
 //rotaFormInclusaoNoticia(app);
 
+var Porta = process.env.PORT || 3000
+app.listen(Porta)
+console.log(':)servidor iniciado na porta ', Porta);
+/*
 app.listen(port, function(){
         console.log("Servidor On localhost:3000");
         console.log(new Date().toISOString());
         //console.log("servidor rodando com express");
         //console.log(msg());
 });
+*/
 //app.listen(port, hostname, () => {
 //        console.log(`Server running at http://${hostname}:${port}/`);
 //});
