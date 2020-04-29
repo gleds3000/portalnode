@@ -2,9 +2,9 @@
   "name": "portal_noticias",
   "version": "1.0.0",
   "description": "Site de Noticias",
-  "main": "node app.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
